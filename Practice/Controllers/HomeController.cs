@@ -12,7 +12,6 @@ namespace Practice.Controllers
     public class HomeController : Controller
     {
         private IEmployeesRepository repository;
-        public int PageSize = 3;
 
         public HomeController(IEmployeesRepository repo)
         {
@@ -22,8 +21,6 @@ namespace Practice.Controllers
         public ViewResult Index(int employeePage = 1)
             => View(repository.Employees
                 .OrderBy(p => p.ID)
-                .Skip((employeePage - 1) * PageSize)
-                .Take(PageSize)
                 );
     }
 }

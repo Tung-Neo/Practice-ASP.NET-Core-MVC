@@ -4964,11 +4964,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Azure\\Practice\\Practice.csproj",
+      "projectUniqueName": "D:\\Azure\\Practice-ASP.NET-Core-MVC\\Practice\\Practice.csproj",
       "projectName": "Practice",
-      "projectPath": "D:\\Azure\\Practice\\Practice.csproj",
+      "projectPath": "D:\\Azure\\Practice-ASP.NET-Core-MVC\\Practice\\Practice.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "D:\\Azure\\Practice\\obj\\",
+      "outputPath": "D:\\Azure\\Practice-ASP.NET-Core-MVC\\Practice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",
